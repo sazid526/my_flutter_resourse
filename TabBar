@@ -30,3 +30,21 @@
     );
 
 Here we also create 5 dart file for TabBarView. 
+
+Here is a example for HomeFragment:
+
+import 'package:flutter/cupertino.dart';
+
+class HomeFragment extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Container(
+      child: Center(
+        child: Text("This is my Home Fragment"),
+      ),
+    );
+  }
+  
+}
+
